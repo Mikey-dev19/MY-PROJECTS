@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="logo.png" alt="Logo" class="logo-img">
+    </div>
+    <ul class="navbar-list">
+      <li><a href="#home" class="navbar-item">Home</a></li>
+      <li><a href="#about" class="navbar-item">About</a></li>
+      <li><a href="#projects" class="navbar-item">Projects</a></li>
+      <li><a href="#contact" class="navbar-item">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="text-section">
+        <h1>Hi, I'm <span>Your Name</span></h1>
+        <p>I am a Backend Developer</p>
+        <p>Passionate about building efficient and scalable backend systems with expertise in various technologies.</p>
+
+        <!-- Hire Me and Social Media Button Section -->
+        <div class="cta-container">
+          <button class="cta-btn" id="hireMeBtn">Hire Me</button>
+        </div>
+        <div class="social-buttons">
+          <button class="social-btn">Discord</button>
+          <button class="social-btn">LinkedIn</button>
+          <button class="social-btn">Facebook</button>
+          <button class="social-btn">Twitter</button>
+        </div>
+      </div>
+      <div class="image-section">
+        <img src="your-photo.jpg" alt="Your Name" class="profile-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a Backend Developer with a passion for creating efficient and scalable backend systems. I work with a variety of technologies and frameworks to build robust solutions. My goal is to continuously learn and evolve in the ever-changing tech landscape.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-cards">
+      <div class="project-card">
+        <img src="project1.jpg" alt="Project 1" class="project-img">
+        <div class="project-info">
+          <h3>Project One</h3>
+          <p>Short description of project one.</p>
+          <button class="project-btn">View Project</button>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="project2.jpg" alt="Project 2" class="project-img">
+        <div class="project-info">
+          <h3>Project Two</h3>
+          <p>Short description of project two.</p>
+          <button class="project-btn">View Project</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>If you would like to get in touch, feel free to contact me!</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="cta-btn">Send Message</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
